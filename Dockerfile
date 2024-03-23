@@ -2,7 +2,7 @@
 FROM node:latest as angular-builder
 WORKDIR /app/frontend
 COPY ../frontend/ /app/frontend
-RUN npm install && npm run build
+RUN npm install --force && npm run build
 
 # Stage 2: Build Spring Boot backend
 FROM maven:latest as spring-builder
