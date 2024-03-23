@@ -2,7 +2,7 @@
 # Stage 2: Build Spring Boot backend
 FROM maven:latest as spring-builder
 WORKDIR /app/backend
-COPY backend/  /app/backend   # Make sure this directory exists
+COPY ../backend/ /app/backend
 RUN mvn clean package -DskipTests
 
 # Stage 3: Create final image
