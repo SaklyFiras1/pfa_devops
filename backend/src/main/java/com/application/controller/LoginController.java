@@ -12,6 +12,7 @@ import com.application.services.ProfessorService;
 import com.application.services.UserService;
 
 @RestController
+@RequestMapping("/api")
 public class LoginController 
 {
 	@Autowired
