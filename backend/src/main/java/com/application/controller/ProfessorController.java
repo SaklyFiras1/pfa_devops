@@ -18,6 +18,7 @@ import com.application.services.ProfessorService;
 import com.application.services.WishlistService;
 
 @RestController
+@RequestMapping("/api")
 public class ProfessorController
 {
 	@Autowired
