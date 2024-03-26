@@ -32,6 +32,7 @@ import com.application.services.UserService;
 import com.application.services.WishlistService;
 
 @RestController
+@RequestMapping("/api")
 public class UserController 
 {
 	@Autowired
