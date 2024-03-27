@@ -10,7 +10,7 @@ import com.application.model.Professor;
 import com.application.model.User;
 import com.application.services.ProfessorService;
 import com.application.services.UserService;
-
+import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api")
 public class LoginController 
