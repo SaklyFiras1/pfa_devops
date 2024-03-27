@@ -16,7 +16,7 @@ import com.application.services.ChapterService;
 import com.application.services.CourseService;
 import com.application.services.ProfessorService;
 import com.application.services.WishlistService;
-
+import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api")
 public class ProfessorController
