@@ -12,7 +12,7 @@
 	<artifactId>ELearningManagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ELearningManagement</name>
-	<description>eLearning Management System using Angular 8 &amp; Springboot</description>
+	<description>eLearning Management System using Angular 8 & Springboot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -49,6 +49,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.8.0.2131</version> <!-- Update to a compatible version -->
 			</plugin>
 		</plugins>
 	</build>
