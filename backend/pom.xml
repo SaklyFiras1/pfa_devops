@@ -37,11 +37,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<plugin>
+		<dependency>
     <groupId>org.sonarsource.scanner.maven</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.8.0.2131</version> <!-- Update to a compatible version -->
-</plugin>
+</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
